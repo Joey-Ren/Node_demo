@@ -1,3 +1,4 @@
+// 直接用代码提示工具生成一个简单的node服务
 var http = require('http');
 http.createServer(function (request, response) {
   response.writeHead(200, {
